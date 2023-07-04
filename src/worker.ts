@@ -44,7 +44,7 @@ async function Notify(env: Env): Promise<string> {
 	})
 
 	for (const comp of nonNotifiedComps) {
-		const url = 'https://discord.com/api/webhooks/984955884734128128/ZbKmJZBIOdiAKnfs7Pv_TYH1RTpsyc9OsEF220gwePRxtWhHxcWDSVrCJKJqDVdbrGZa'
+		const url = env.DISCORD_URI
 		const data = { "content": `<@207174394504675328> New WCA Comp in utah. ${comp.name} in ${comp.location}, https://www.worldcubeassociation.org${comp.link}` };
 		const customHeaders = {
 			"Content-Type": "application/json",
