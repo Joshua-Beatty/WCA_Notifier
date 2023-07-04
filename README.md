@@ -13,7 +13,7 @@ You will need to install all dependencies with
   npm i
 ```
 
-You will also need to modify wrangler.toml to point towards your own kv_namespaces
+You will also need to copy wrangler.toml.example to a wrangler.toml file and modify the namespace Ids.
 
 Then you can start local testing by running
 

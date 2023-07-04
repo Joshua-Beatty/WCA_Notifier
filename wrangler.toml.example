@@ -12,7 +12,3 @@ kv_namespaces = [
 [triggers]
 crons = ["0 0 * * *"]
 
-[vars]
-DISCORD_URI = "https://discord.com/api/webhooks/123456789/abcdefghijkl"
-
-
