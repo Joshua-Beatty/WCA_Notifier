@@ -132,3 +132,5 @@ dist
 .wrangler/
 
 .dev.vars
+
+wrangler.toml
