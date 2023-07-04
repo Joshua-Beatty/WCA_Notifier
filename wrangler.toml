@@ -1,0 +1,13 @@
+name = "wca-notifier"
+main = "src/worker.ts"
+compatibility_date = "2023-05-18"
+
+kv_namespaces = [
+  { binding = "PROJECTS", id = "36dbf2b4cf6846b892ab31eeaf79f458", preview_id= "363d917050eb4bcda715377fc3febb11" }
+]
+
+# Cron Triggers
+# Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
+# Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
+[triggers]
+crons = ["0 0 * * *"]
